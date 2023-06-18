@@ -14,21 +14,22 @@ public class StringExample {
 //                "invalid username":"user accepted");
 //
 //
-//        System.out.println("please insert date of birth");
-//        int dob = scan.nextInt();
-//        int age  = 2023- dob;
-//        //(variable x = (expression) ?
-//        // value if true : value if false)
-//        String accountStatus =(age < 18 )?
-//            "underage cant create an account":
-//                "your account has been created";
+
+        System.out.println("please insert date of birth");
+        int dob = scan.nextInt();
+        int age  = 2023- dob;
+        //(variable x = (expression) ?
+        // value if true : value if false)
+        String accountStatus =(age < 18 )?
+            "underage cant create an account":
+                "your account has been created";
 //
 //        System.out.println(accountStatus);
         System.out.println("please insert a number ?");
         int userInput = scan.nextInt();
         int randomNumber = (int)Math.round(Math.random()*10);
         System.out.println((userInput ==randomNumber
-                ?"congra":"try again"));
+                ?"congrats":"try again"));
     }
 
 
