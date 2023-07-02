@@ -11,8 +11,13 @@ public class ConditionalStatements {
         int number =  scanner.nextInt();
         boolean fizz = (number % 3 ==0);
         boolean buzz = (number % 5 ==0);
-        if (fizz && buzz)
+        if (fizz && buzz) {
             System.out.println("FIZZ BUZZ");
+            if(number%2==0){
+
+
+            }
+        }
         else if( fizz)
             System.out.println("FIZZ");
         else if (buzz)
